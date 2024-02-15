@@ -12,7 +12,7 @@ img {
 
 /* Basic styling for header */
 header {
-  background-color: #427f10; /* Match the green color in the logo */
+  background-color: #427f10; /* Green color matching the logo */
   padding: 20px;
   text-align: center;
   position: relative; /* Add position relative for header */
@@ -21,6 +21,7 @@ header {
 header h1 {
   font-size: 2em;
   margin-bottom: 10px;
+  color: #fff; /* Set font color to white for visibility */
 }
 
 /* Styling logo */
@@ -51,6 +52,7 @@ nav menu li a {
 /* Styling main content */
 main {
   padding: 20px;
+  background-color: #f0f0f0; /* Set background color for main content */
 }
 
 main h1 {
@@ -64,12 +66,13 @@ form {
 }
 
 form label, form input, form button {
-  display: block;
+  display: inline-block; /* Display name and email inputs inline */
+  vertical-align: top; /* Align them to the top */
   margin-bottom: 10px;
 }
 
-form input[type="text"], form button {
-  width: 100%;
+form input[type="text"] {
+  width: calc(40% - 5px); /* Set width to 50% minus some spacing */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -79,11 +82,14 @@ form button {
   background-color: #007bff;
   color: #fff;
   cursor: pointer;
+  padding: 10px 20px; /* Add padding to the button */
+  border: none;
+  border-radius: 5px;
 }
 
 /* Styling footer */
 footer {
-  background-color: #427f10; /* Match the green color in the logo */
+  background-color: #427f10; /* Green color matching the logo */
   color: #fff;
   text-align: center;
   padding: 20px;
