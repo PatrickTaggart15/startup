@@ -1,0 +1,201 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, menu, nav, form, footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensuring full-width images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Basic styling for header */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Add position relative for header */
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling logo */
+  header img {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+  }
+  
+  /* Styling navigation */
+  nav menu {
+    list-style: none;
+    display: flex; /* Flexbox */
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  nav menu li {
+    margin-right: 20px;
+  }
+  
+  nav menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Styling main content */
+  main {
+    padding: 20px;
+  }
+  
+  main h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling form */
+  form {
+    margin-top: 20px;
+  }
+  
+  form label, form input, form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"], form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Styling footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  With this update, the logo should now be positioned in the top right corner of the header. You can adjust the top and right properties as needed to fine-tune its position.
+  
+  
+  
+  User
+  am I able to change the font styles?
+  ChatGPT
+  Yes, you can absolutely change the font styles in your CSS. You can specify different font families, sizes, weights, and styles for various elements in your HTML. Here's how you can modify the font styles in your CSS:
+  
+  css
+  Copy code
+  /* Resetting default margin and padding */
+  body, h1, h2, h3, h4, h5, h6, p, ul, menu, nav, form, footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensuring full-width images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Basic styling for header */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Add position relative for header */
+    font-family: Arial, sans-serif; /* Change font family */
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: bold; /* Change font weight */
+    color: #333; /* Change font color */
+  }
+  
+  /* Styling logo */
+  header img {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+  }
+  
+  /* Styling navigation */
+  nav menu {
+    list-style: none;
+    display: flex; /* Flexbox */
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  nav menu li {
+    margin-right: 20px;
+  }
+  
+  nav menu li a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+  }
+  
+  /* Styling main content */
+  main {
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Change font family */
+  }
+  
+  main h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 14px; /* Change font size */
+    line-height: 1.5; /* Adjust line height */
+  }
+  
+  /* Styling form */
+  form {
+    margin-top: 20px;
+  }
+  
+  form label, form input, form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"], form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Styling footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif; /* Change font family */
+  }
