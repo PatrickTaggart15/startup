@@ -12,10 +12,12 @@ img {
 
 /* Basic styling for header */
 header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #427f10; /* Green color matching the logo */
   padding: 20px;
   text-align: center;
   position: relative; /* Add position relative for header */
+  margin-bottom: 2px;
 }
 
 header h1 {
@@ -52,7 +54,7 @@ nav menu li a {
 /* Styling main content */
 main {
   padding: 20px;
-  background-color: #f0f0f0; /* Set background color for main content */
+  background-color: #5a4343; /* Set background color for main content */
 }
 
 main h1 {
@@ -93,5 +95,5 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 2px;
 }

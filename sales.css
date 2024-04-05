@@ -29,7 +29,7 @@ header img {
   position: absolute;
   top: 10px; /* Adjust as needed */
   left: 10px; /* Adjust as needed */
-  width: 120px; /* Adjust width as needed */
+  width: 100px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -52,7 +52,7 @@ nav menu li a {
 /* Styling main content */
 main {
     padding: 20px;
-    background-color: #f0f0f0; /* Set background color for main content */
+    background-color: #5a4343; /* Set background color for main content */
   }
   
   /* Styling individual ads */
