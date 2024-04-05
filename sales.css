@@ -1,5 +1,6 @@
 /* Resetting default margin and padding */
 body, h1, h2, h3, h4, h5, h6, p, ul, menu, nav, form, footer, img {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -12,13 +13,16 @@ img {
 
 /* Basic styling for header */
 header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #427f10; /* Green color matching the logo */
   padding: 20px;
   text-align: center;
   position: relative; /* Add position relative for header */
+  margin-bottom: 2px;
 }
 
 header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2em;
   margin-bottom: 10px;
   color: #fff; /* Set font color to white for visibility */
@@ -57,6 +61,7 @@ main {
   
   /* Styling individual ads */
   .ad-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -88,6 +93,7 @@ main {
   }
 
   .ad p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 10px;
   }
 
