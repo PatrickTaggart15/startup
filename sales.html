@@ -1,69 +1,83 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <link rel="stylesheet" href="sales.css" />
-      <meta charset="UTF-8" />
-      <!-- Tell browsers not to scale the viewport automatically -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Simon HTML</title>
-      <link rel="icon" href="favicon.ico" />
-    </head>
-    <body>
-      <!-- Use header, main, and footer elements to give semantic structure -->
-      <header>
-        <h1>Taggart Urban Livestock</h1>
-        <img src= "logo.png">
-  
-        <!-- Navigation elements -->
-        <nav>
-          <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-          <menu>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sales.html">Sales</a></li>
-            <li><a href="about.html">About</a></li>
-          </menu>
-        </nav>
-  
-        <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-        <hr />
-      </header>
-  
-      <main>
-        <h1>Sales</h1>
-        <P>Here there will be application data. It will display their name</P>
-        <p>Posted are all the lambs available for purchase. </p>
-      
-        <div class="ad-container"> <!-- Wrap ad containers in a div for styling -->
-          <!-- Lot 1 -->
-          <section class="ad">
-            <h2>Lot 1</h2>
-            <img src="sheep1.jpg" alt="Sheep 1">
-            <p>$350</p>
-          </section>
-      
-          <!-- Lot 2 -->
-          <section class="ad">
-            <h2>Lot 2</h2>
-            <img src="sheep2.jpg" alt="Sheep 2">
-            <p>$350</p>
-          </section>
-      
-          <!-- Lot 3 -->
-          <section class="ad">
-            <h2>Lot 3</h2>
-            <img src="sheep3.jpg" alt="Sheep 3">
-            <p>$350</p>
-          </section>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="about.css" /> <!-- Use the same CSS file as the about page -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taggart Urban Livestock</title>
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header>
+    <h1>Taggart Urban Livestock</h1>
+    <img src="logo.png">
+    <nav>
+      <menu>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="about.html">About</a></li>
+      </menu>
+    </nav>
+    <hr />
+  </header>
+  <main>
+    <h1>Sales</h1>
+    <p>Here you will find application data. It will display their names.</p>
+    <p>Below are all the lambs available for purchase.</p>
+    <div class="ad-container">
+      <!-- Lot 1 -->
+      <section class="ad">
+        <h2>Lot 1</h2>
+        <img src="sheep1.jpg" alt="Sheep 1">
+        <p>$350</p>
+        <p>Sire - Buddy Dam - White Chocolate/Unicorn</p>
+        <div class="chat-section">
+          <h3>Comments</h3>
+          <div class="comments">
+            <!-- Comments will be dynamically added here -->
+          </div>
+          <textarea class="comment-input" placeholder="Add your comment..."></textarea>
+          <button class="comment-btn">Post Comment</button>
         </div>
-      
-        <p>Here will be real-time communication. People will be able to like certain sheep and comment on each one</p>
-      </main>
-  
-      <footer>
-        <hr />
-        <span class="text-reset">Taggart Urban Livestock</span>
-        <br />
-        <a href="https://github.com/PatrickTaggart15/startup">GitHub</a>
-      </footer>
-    </body>
-  </html>
+      </section>
+      <!-- Lot 2 -->
+      <section class="ad">
+        <h2>Lot 2</h2>
+        <img src="sheep2.jpg" alt="Sheep 2">
+        <p>$350</p>
+        <p>Sire - Buddy Dam - White Chocolate/Unicorn</p>
+        <div class="chat-section">
+          <h3>Comments</h3>
+          <div class="comments">
+            <!-- Comments will be dynamically added here -->
+          </div>
+          <textarea class="comment-input" placeholder="Add your comment..."></textarea>
+          <button class="comment-btn">Post Comment</button>
+        </div>
+      </section>
+      <!-- Lot 3 -->
+      <section class="ad">
+        <h2>Lot 3</h2>
+        <img src="sheep3.jpg" alt="Sheep 3">
+        <p>$350</p>
+        <p>Sire - Buddy Dam - White Chocolate/Unicorn</p>
+        <div class="chat-section">
+          <h3>Comments</h3>
+          <div class="comments">
+            <!-- Comments will be dynamically added here -->
+          </div>
+          <textarea class="comment-input" placeholder="Add your comment..."></textarea>
+          <button class="comment-btn">Post Comment</button>
+        </div>
+      </section>
+    </div>
+    <p>Here will be real-time communication. People will be able to like certain sheep and comment on each one.</p>
+  </main>
+  <footer>
+    <hr />
+    <span class="text-reset">Taggart Urban Livestock</span>
+    <br />
+    <a href="https://github.com/PatrickTaggart15/startup">GitHub</a>
+  </footer>
+</body>
+</html>

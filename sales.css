@@ -13,35 +13,33 @@ img {
 
 /* Basic styling for header */
 header {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #427f10; /* Green color matching the logo */
   padding: 20px;
   text-align: center;
-  position: relative; /* Add position relative for header */
+  position: relative;
   margin-bottom: 2px;
 }
 
 header h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2em;
   margin-bottom: 10px;
-  color: #fff; /* Set font color to white for visibility */
+  color: #fff;
 }
 
 /* Styling logo */
 header img {
   position: absolute;
-  top: 10px; /* Adjust as needed */
-  left: 10px; /* Adjust as needed */
-  width: 100px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: auto;
 }
 
 /* Styling navigation */
 nav menu {
   list-style: none;
-  display: flex; /* Flexbox */
-  justify-content: center; /* Center the items horizontally */
+  display: flex;
+  justify-content: center;
 }
 
 nav menu li {
@@ -50,56 +48,54 @@ nav menu li {
 
 nav menu li a {
   text-decoration: none;
-  color: #fff; /* Change font color to white */
+  color: #fff;
 }
 
 /* Styling main content */
 main {
-    padding: 20px;
-    background-color: #5a4343; /* Set background color for main content */
-  }
-  
-  /* Styling individual ads */
-  .ad-container {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
+  padding: 20px;
+  background-color: #5a4343;
+}
 
-  .ad {
-    width: 100%; /* Ensure each ad container starts on a new line */
-    max-width: 300px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
+/* Styling individual ads */
+.ad-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
-  .ad h2 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    text-align: center;
-  }
+.ad {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 
-  .ad img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 5px;
-  }
+.ad h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  text-align: center;
+}
 
-  .ad p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 10px;
-  }
+.ad img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.ad p {
+  margin-bottom: 10px;
+}
 
 /* Styling footer */
 footer {
-  background-color: #427f10; /* Green color matching the logo */
+  background-color: #427f10;
   color: #fff;
   text-align: center;
   padding: 20px;
