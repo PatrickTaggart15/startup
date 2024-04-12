@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="index.css" />
-    <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taggart Urban Livestock</title>
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
-    <header>
-      <h1>Taggart Urban Livestock</h1>
-      <img src= "logo.png">
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8" />
+  <!-- Tell browsers not to scale the viewport automatically -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taggart Urban Livestock</title>
+</head>
+<body>
+  <!-- Use header, main, and footer elements to give semantic structure -->
+  <header>
+    <h1>Taggart Urban Livestock</h1>
+    <img src= "logo.png">
 
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-        </menu>
-      </nav>
+    <!-- Navigation elements -->
+    <nav>
+      <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+      <menu>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </menu>
+    </nav>
 
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+    <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+    <hr />
+  </header>
+
+  <main>
+    <h1>Our Mission</h1>
+    <p>Our mission at Taggart Urban Livestock is to produce high quality livestock while helping kids develop a love skill for raising livestock. We started with the goal to 
+      be focused on helping kids. </p>
+      <p>Sign in to look at current and upcoming sales</p>
+      <form id="loginForm"> <!-- Added an ID to the form for easier targeting -->
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="email" placeholder="email" />
+        <button type="submit">Login</button>
+      </form>
+      <p>There will be database storage here that will collect people's names and emails. That way I can contect them in the future.</p>
+  </main>
+
+  <footer>
       <hr />
-    </header>
-
-    <main>
-      <h1>Our Mission</h1>
-      <p>Our mission at Taggart Urban Livestock is to produce high quality livestock while helping kids develop a love skill for raising livestock. We started with the goal to 
-        be focused on helping kids. </p>
-        <p>Sign in to look at current and upcoming sales</p>
-        <form method="get" action="sales.html">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Name" />
-            <input type="text" id="email" placeholder="email" />
-            <button type="submit">Login</button>
-          </form>
-          <p>There will be database storage here that will collect people's names and emails. That way I can contect them in the future.</p>
-    </main>
-
-    <footer>
-        <hr />
-        <span class="text-reset">Taggart Urban Livestock</span>
-        <p>Contact Us</p>
-        <p>801-618-5527</p>
-        <p>taggarturbanlivestock@gmail.com</p>
-        <br />
-        <a href="https://github.com/PatrickTaggart15/startup">GitHub</a>
-      </footer>
-      <script src="login.js"></script>
-  </body>
+      <span class="text-reset">Taggart Urban Livestock</span>
+      <p>Contact Us</p>
+      <p>801-618-5527</p>
+      <p>taggarturbanlivestock@gmail.com</p>
+      <br />
+      <a href="https://github.com/PatrickTaggart15/startup">GitHub</a>
+    </footer>
+    <script src="login.js"></script>
+</body>
 </html>
